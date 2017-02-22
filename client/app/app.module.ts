@@ -6,13 +6,15 @@ import 'angular-ui-router';
 
 import LayoutComponent from './layout/layout.module';
 import HomeComponent from './home/home.module';
+import AboutComponent from './about/about.module';
 
 const name = 'app';
 const dependencies = [
   'ui.router',
   Core, //YOUR CORE DEPENDENCIES
   HomeComponent,
-  LayoutComponent
+  LayoutComponent,
+  AboutComponent
 ];
 
 angular.module(name, dependencies)

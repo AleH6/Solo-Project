@@ -12,7 +12,7 @@ namespace app.home {
     }
   }
 
-  HomeController.$inject = [''];
+  HomeController.$inject = [];
 }
 
 export default angular.module('app.home', [])
