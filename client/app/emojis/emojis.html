@@ -1,0 +1,4 @@
+<h1>Emojis</h1>
+<ul>
+  <li ng-repeat="emoji in vm.emojis | limitTo : 600 track by $index"><img ng-src={{emoji}}></li>
+</ul>

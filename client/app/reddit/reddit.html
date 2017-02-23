@@ -1,0 +1,6 @@
+<!-- <pre>{{vm.sub.data.children | json:2}}</pre> -->
+<ul>
+  <li ng-repeat="post in vm.sub.data.children | limitTo : 10 track by $index">
+    <a href="{{vm.host + post.data.permalink}}" target ="_blank">{{post.data.title}}</a>
+  </li>
+</ul>
